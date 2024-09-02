@@ -1,0 +1,119 @@
+*{
+    text-align: center;
+    box-sizing: content-box;
+    text-decoration: none;
+    
+}
+/* Estrutura do Header */
+.container {
+    position: flex;
+    justify-content: center;
+    display: flex;
+    margin-top: 300px
+}
+
+.header {
+    background-color:#272727;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 0;
+    width: 100%;
+    z-index: 1;
+    padding: 10px;
+    box-shadow: #575757 0px 0px 20px;
+}
+#h1Header {
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btnHeader {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px;
+    margin-left: 50px;
+    box-shadow: #575757 0px 0px 20px;
+    transition: transform 0.3s ease;
+    flex-direction: row;
+}
+
+.btnHeader:hover {
+    transform: translateY(-5px);
+}
+
+#systImg {
+    width: 37px;
+    height: 37px;
+    display: flex;
+    margin: auto;
+}
+
+/* Estrutura das divs do site */
+body {
+    height: 160vh;
+    overflow-x: hidden;
+    background-color: #e2dfe4;
+}
+
+.SobreMim {
+    background-color: #c2c1c4;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 20px; 
+    position: relative;
+    width: 1000px;
+    margin: auto;
+    left: 20px;
+}
+
+.Portfolio {
+    background-color: #c2c1c4;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 20px; 
+    position: relative;
+    top: 30px;
+    width: 1000px;
+    margin: auto;
+    left: 20px;
+}
+
+.Formacao {
+    background-color: #c2c1c4;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 20px; 
+    position: relative;
+    top: 60px;
+    width: 1000px;
+    margin: auto;
+    left: 20px;
+}
+
+.Contato {
+    background-color: #c2c1c4;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 20px; 
+    position: relative;
+    top: 90px;
+    width: 1000px;
+    margin: auto;
+    left: 20px;
+}
+
+#nozomi {
+    height: 200px;
+}
+
+.imagem {
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 20px; 
+    position: relative;
+    top: 90px;
+    width: 1000px;
+    margin: auto;
+    left: 20px;
+}
